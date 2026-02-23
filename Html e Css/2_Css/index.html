@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css</title>
     <!--3- Internal Css-->
     <style>
-        p{
+        /* p{
             color: gold;
             font-size: 40px;
-        }
+        } */
     </style>
     <!--4- External Css-->
     <!--Cascading Style Sheets-->
@@ -27,6 +27,12 @@
     <p>Eu fui estilizado pelo internal</p>
     <p>Teste</p>
     <p>Teste2</p>
+
+    <!-- 48 Sticky -->
+    <div class="sticky">
+        <span>Sou sticky</span>
+    </div>
+
     <!--4- External Css-->
     <h3>Meu titulo em verde</h3>
     <!--5- Ordem do Css-->
@@ -50,5 +56,141 @@
     <h2 id="algum-titulo" class="titulo">Algum Texto1</h2>
     <h2 class="titulo">Algum Texto2</h2>
     <h2>Algum Texto3</h2>
+    <!--11 - Nome de Cor-->
+    <p class="color_name">Qualquer texto</p>
+    <!--12 Hexdecimal-->
+    <p class="hex">Paragrafo com hex</p>
+    <p class="hex2">Hex2</p>
+    <!--13 Mais sobre Hex-->
+    <p class="simple_hex">Hex simplificado</p>
+    <p class="simple_hex2">Hex simplificado</p>
+    <!-- 14 - Rgb -->
+    <p class="rgb">Estilizado com Rgb</p>
+    <p class="mixed_rgb">Estilizado com rgb</p>
+    <!-- 15 - RGBA -->
+    <p class="rgba">Opacidade no fundo rgba</p>
+    <!-- 16 - HSL -->
+    <p class="hsl">Hsl1</p>
+    <p class="hsl2">Hsl2</p>
+    <!-- 17 -Background-Color -->
+    <p class="bg">Mude o background</p>
+    <p class="bg_2">Mude o background</p>
+    <!-- 18 - Background Opacity -->
+    <div class="bg_opacity">
+        <p>Estou aqui</p>
+    </div>
+    <div class="bg_opacity2">
+        <p>Estou aqui quase visivel</p>
+    </div>
+    <!-- 19 - RGBA OPACITY -->
+    <div class="rgba_opacity">
+        <h1>Este titulo precisa está visivel</h1>
+    </div>
+    <!-- 20 - Background Images -->
+    <h1 class="bg-img">Este titulo tem imagem</h1>
+    <!-- 21 Centralizar img de bg -->
+    <div class="not-centered-bg">
+
+    </div>
+    <div class="centered-bg">
+
+    </div>
+    <!-- 22 Largura e Altura -->
+    <div class="height-width"></div>
+    <div class="height-width2"></div>
+    <!-- 23 Padding -->
+    <div class="without-padding">Este não tem padding</div>
+    <div class="padding">Este tem padding</div>
+    <!-- 24 Padding Individual -->
+    <p class="padding_individual">Este elemento tem paddings diferente</p>
+    <!-- 25 Shorthand Padding -->
+    <p class="shorthand-padding">Texto algum</p>
+    <p class="shorthand-padding2">Texto algum</p>
+    <!-- 26 Padding e Width -->
+    <div class="without-border-box">
+        <p>Conteudo</p>
+    </div>
+    <div class="border-box">
+        <p>Conteudo 2</p>
+    </div>
+    <!-- 27 Border-->
+    <div class="border">Borda</div>
+    <div class="border2">Borda2</div>
+    <!-- 28 Lados individuais border-->
+    <p class="border-left">Borda na esquerda</p>
+    <p class="border-bottom">Borda inferior</p>
+    <!-- 29 Border Radius -->
+    <div class="rounded-p">Arrendondado</div>
+    <div class="rounded-p-2">Arredondado2</div>
+    <!-- 30 Margem -->
+    <div class="margin">Margem</div>
+    <div class="margin-top">Margem topo</div>
+    <div class="margin-shorthand">Margem shorthand</div>
+    <!-- 31 Box Model -->
+    <div class="box-model">
+        <p>Tenho todas propriedades box model</p>
+    </div>
+    <!-- 32 Alinhamento de texto -->
+    <p class="text-aligned">Alinhado à direita</p>
+    <div class="container-center">
+        <h2>Estamos centralizados</h2>
+        <p>Algum texto</p>  
+    </div>
+    <!-- 34 Text decoration -->
+    <p class="underline">Eu tenho um underline</p>
+    <p class="line-trough">Eu tenho um risco</p>
+    <a href="#" class="remove-underline">Sem underline</a>
+    <!-- 35 Transformação de Texto -->
+    <p class="upper-case">Esse texto caixa alta</p>
+    <p class="lower-case">Esse texto caixa baixa</p>
+    <!-- 36 Espaçamento de letras -->
+    <h2 class="spacing">Eu tenho espaçamento maior</h2>
+    <!-- 37 Fontes -->
+    <p class="serif">Serif fonte</p>
+    <p class="san-serif">San Serif fonte</p>
+    <p class="monospace"> Monospace fonte</p>
+    <p class="cursive">Cursive fonte</p>
+    <p class="fantasy">Fantasy fonte</p>
+    <!-- 38 Estilo de Fonte -->
+    <hr>
+    <p class="italic">Itálico</p>
+    <p class="oblique">Obliquo</p>
+    <!-- 39 Font Weight -->
+    <p class="thin">Fino</p>
+    <p class="bold">Bold</p>
+    <p class="bolder">Bolder</p>
+    <!-- 40 Fonte Size -->
+    <h4 class="small">Titulo pequeno</h4>
+    <h4 class="big">Titulo grande</h4>
+    <!-- 41 Displays -->
+    <div class="inline-box">a</div>
+    <div class="inline-box">b</div>
+    <div class="inline-box">c</div>
+    <span class="block">Teste</span>
+    <span class="block">Teste 2</span>
+    <!-- 42 Escondendo elementos -->
+    <p class="invisible">Me encontre</p>
+    <!-- 43 Static -->
+    <span class="static">Estatico</span>
+    <!-- 44 Relative -->
+    <div class="relative">Relativo</div>
+    <!-- 45 Absolute -->
+    <div class="absolute">
+        <span>Sou absolute</span>
+        <p>Paragrafo</p>
+    </div>
+    <!-- 46 Position Absolute -->
+    <div class="relative-container">
+        <div class="absolute1"></div>
+        <div class="absolute2"></div>
+    </div>
+    <!-- 47 Fixed -->
+    <span class="fixed">Fixo</span>
+    <!-- 49 Z-Index -->
+    <div class="relative-container">
+        <div class="absolute3"></div>
+        <div class="absolute4"></div>
+        <div class="absolute5"></div>
+    </div>
 </body>
 </html>
